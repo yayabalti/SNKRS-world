@@ -1,0 +1,1029 @@
+body{
+    margin:0;
+    padding: 0;
+    background:url("/image/backround-page.png");
+  }
+  
+  
+  
+  /* HAUT DE PAGE */
+  
+  /* div entiere bonniere haut de page */
+  
+  .banniere_haut_de_page{
+  display: flex;
+  position:relative;
+  background-color: rgb(222, 222, 222);
+  justify-content: space-around;
+  }
+  
+  
+  /* categorie principale gauche */
+  .titre_principale{
+  display: flex;
+  font-family: "Madimi One", sans-serif;
+  margin-top: 20px;
+  }
+  .categorie_nav{
+  font-size: 22px;
+  margin-left:60px;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  }
+  
+  /* barre de recherche */
+  
+  .barre_de_recherche{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  }
+  
+  
+  .input {
+  font-family: "Montserrat", sans-serif;
+  width: 25%;
+  height: 45px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 2.5rem;
+  box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+  border: 0;
+  border-radius: 12px;
+  background-color: #16171d;
+  outline: none;
+  color: #bdbecb;
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: text;
+  z-index: 0;
+  }
+  
+  .input::placeholder {
+  color: #bdbecb;
+  }
+  
+  .input:hover {
+  box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+  }
+  
+  .input:active {
+  transform: scale(0.95);
+  }
+  
+  .input:focus {
+  box-shadow: 0 0 0 2.5px #2f303d;
+  }
+  
+  .search-icon {
+  margin-top: 27px;
+  left: 1rem;
+  fill: #bdbecb;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  z-index: 1;
+  position: relative;
+  left: 55px;
+  }
+  
+  
+  /* icone */
+  
+  .banniere_haut_de_page{
+  display: flex; 
+  
+  }
+  
+  .fa-solid{
+  color: black;
+  font-size:30px;
+  margin-left: 50px;
+  }
+  
+  .icone_haut_de_page{
+  margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* HEADER */
+  
+  header{
+    background:url(/image/Screenshot_20240303_083446_Pinterest.jpg);
+    height:300px;
+    background-size:170Px;
+    
+  }
+  
+  /*logo du site */
+  .logo_header{
+  position: relative;
+  width: 19%;
+  bottom:44px; 
+  }
+  
+  
+  /* slogant header */
+  h1{
+  position: absolute;
+  left: 300Px;
+  top: 180px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: rgb(248, 252, 0);
+  text-shadow: 2px 0 0 rgb(6, 3, 0), 2px 2px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0);
+  word-spacing:5px;
+  text-shadow:5px 5px 1px #000;
+  }
+  
+  
+  /* banierre promo */
+  
+  .banniere_promo{
+    background-color: #000; 
+    color: rgb(255, 196, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 7px;
+    opacity:87%;
+    display: flex;
+    
+  }
+  
+  .phrase_promo{
+    font-size: 20PX;
+    animation: scroll 10s linear infinite;
+    text-align: center;    
+    padding-left: 30px;
+  }
+  
+  
+  
+  /* effet de slide pour la banniere promo */
+  
+  @keyframes scroll{
+    0%{
+         transform: translateX(-100%);
+    }
+  
+    100% {
+        transform: translateX(0%);
+    }
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* PAGE ARTICLE */
+  
+  /* photo */
+  .banniere_categorie{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 25px;
+      padding-top: 5px;
+      padding-bottom:5px;
+      letter-spacing:0.1em;
+      padding-left: 60px;
+      margin:0 50 0 50 ;
+      color: #000000;
+  }
+  
+  .page_article{
+      background-color: rgba(255, 255, 255, 0.885);
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+      border: 3px solid black;
+      box-shadow: 4px 4px 5px rgb(6, 3, 0);
+      padding-top: 0px;
+      height: 950px;
+  }
+  
+  
+  
+  .titre{
+      
+    font-size: 50px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end; 
+  
+  
+      
+  }
+  .photo_full .grande_photo{
+    width:40%;
+  }
+  
+  /* grille tailes */
+  
+  .grid-container{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(3,1fr);
+      width: 40%;
+      position: relative;
+      left: 850px;
+  
+  }
+  
+  .grid-item{
+      border: 2px solid black;
+      padding: 20px;
+      text-align: center;
+      font-size: 35px;
+  }
+  
+  #rupture_taile{
+      text-decoration: line-through black;
+  }
+  
+  .grid-container a{
+      text-decoration: none;
+      color: #000;
+  }
+  
+  
+  .taille{
+      font-size:20px;
+      font-family: sans-serif;
+      display: flex;
+      margin-bottom: 5px;
+      justify-content: flex-end;
+      position:relative;
+      right:520px;
+  }
+  
+    
+  
+    .photo_pricipale{
+      width: 500px;
+    }
+    
+  
+  .photo_de_face{
+  width: 20%;
+  margin-right: 20px;
+  }
+  
+  
+  .photo_talon{
+      width: 17%;
+      margin-right: 20px;
+  }
+  
+  .semelle{
+  width:20%;
+  height: 20%;
+  margin-top:30px ;
+  }
+  
+  /* etoile avis */
+.rating{
+  margin-right: 1206px;
+
+}
+
+  .rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating > input:checked ~ label {
+    color: #ffa723;
+  }
+  
+  
+  
+  
+  
+  
+  .icone_coeur{
+      display: flex;
+    padding: 10px;
+  }
+  
+  
+  .photo_ligne{
+      width: 80%; 
+  }  
+  
+  .prix_plus_panier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-family: sans-serif;
+  }
+  
+  
+  
+  
+  
+  .prix_plus_panier a{
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  
+  
+  
+  .prix{
+  font-size: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  }
+  
+
+
+  .detail_photo{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .photo_full .icone_coeur{
+    display:flex;
+    flex-wrap: nowrap;
+  }
+  
+  .titre__taille_prix_panier{
+    position: relative;
+    bottom: 580px;
+  }
+  
+  .detail_photo{
+    width: 90%;
+  }
+  
+  .descrition{
+    position: relative;
+    bottom: 500px;
+    flex-direction: row-reverse;
+    width: 780px;
+    margin-left: 15Px;
+  }
+  
+  .descrition .texte_desciption{
+    margin-top: 5px;
+    font-family: sans-serif;
+  }
+  
+  
+  .texte_description_II{
+    font-family: sans-serif;
+  }
+  .verification{
+    color: #000000;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 840px;
+    left:264px;
+    width: 314px;
+  }
+  
+  
+  .logo_verification{
+    font-size: 30px;
+    position: relative;
+    bottom: 885px;
+    left: 224px;
+  }
+  
+  
+  .newsletter{
+    position: relative;
+    bottom: 850px;
+    left:820px;
+    text-align: center;
+    background-color: rgba(179, 177, 177, 0.167);
+    height: 150px;
+    width: 550px;
+  }
+  
+  .titre_newsletter{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .texte_newsletter{
+    font-family: sans-serif;
+    margin-top: 5px;
+  }
+  
+  
+  .inscription_mail{
+    font-size: 22px;
+    margin-top:4px;
+  }
+  
+ 
+
+
+
+
+
+
+
+
+
+
+  /* page panier  */
+  
+  
+  #popup-overlay{   
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000eb;
+    z-index:1;
+    display: none; 
+    
+  }
+  
+  #popup-overlay.open{
+    display: block !important;
+  }
+
+
+
+  .popup-content{
+    width: 80%;
+    height: 90%;
+    background-color: rgb(224, 224, 224);
+    border: 6px solid rgb(208, 208, 208);
+    border-radius: 20px;
+  }
+
+  .popup_exit{
+    position: absolute;
+    right: 295px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border:3px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+
+
+
+
+
+   button{
+    font-size: 30px;
+    border:3Px solid rgb(255, 255, 255) ;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px ;
+    background-color: green; 
+    cursor: pointer;
+   }
+  .jordan_panier{
+    width: 15%;
+    height: 20%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  #logo_panier{
+    width:10%;
+    display: flex;
+    padding-top: 50px;
+    margin-left:32%;
+  }
+
+  .ligne_panier{
+    margin-right: 33%;
+    margin-top: 0;
+  }
+
+  .jordan_texte{
+    display: flex;
+
+  }
+
+
+  .texte_panier{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+/*boutton suprimé */
+    .btn{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+
+
+
+  #prix_{
+    margin-left: 40px;
+    margin-top: 111px;
+  }
+
+
+
+  .boutton_suprimé{
+    font-size: 20Px;
+  }
+  
+  p.texte_panier_{
+    font-size: 30Px;
+    margin-top: 0;
+  }
+
+  
+
+  .texte_total{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .prix_total{
+    font-size: 27px;
+    margin-left: 115px;
+    margin-top: 5px;
+  }
+  .livraison_{
+    font-size: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 10px;
+  }
+
+  .total_produit {
+    font-size:20px ;
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  .texte_produit{
+    margin-right: 157px;
+  }
+
+
+  .texte_livraison{
+    margin-right: 150px;
+  }
+
+
+  .block_total{
+    background-color: #a2a2a23e;
+    color: #000000;
+    border: 4px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    width:350px;
+    height:300px;
+    margin-left: 850px;
+    margin-bottom: 300px;
+    position: relative;
+    bottom: 320px;
+  }
+
+  .montant{
+    display: flex;
+  }
+  
+  .boutton_acheter a{
+    font-family: sans-serif;
+    text-decoration: none; 
+    color: white;
+  }
+
+
+
+/* panier */
+
+  /* boutton panier (acheter) */
+
+  a.phrase_panier{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    color: white;
+    font-size: 25px;
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 4px; 
+
+  } 
+
+  .condi_livraison{
+    background-color: #a2a2a23e;
+    border: 4px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    width:350px;
+    height:230px;
+    position: relative;
+    bottom: 590px;
+    left: 850px;
+    color: #000000;
+  }
+
+  
+
+  .ligne_separator{
+    margin-right:690px ;
+  }
+
+  button._acheter_{
+    background-color: green;
+    color: white;
+    text-align:center;
+    font-size: 30px;
+    font-family: sans-serif;
+    border: 4px solid green;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 25px;
+  }
+
+
+
+  
+
+
+
+  /* respansive */
+
+  @media screen and (max-width: 426px) {
+
+  
+    /* haut de page */
+    .titre_principale{
+      display: none;
+    }
+  
+    .icone_haut_de_page{
+      display: flex;
+      margin-bottom: 5px;
+    }
+  
+    .fa-solid{
+      font-size: 20px;
+  
+  
+    }
+  
+    .banniere_haut_de_page{
+      height:90px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    #query.input{
+      height: 30px;
+      width: 200px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      margin-left:110px;
+    }
+  
+  
+    /* header */
+    .banniere_promo{
+      height: 40px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .phrase_promo{
+      font-size: 10px;
+  
+    }
+  
+    .logo_header{
+  
+      width: 45%;
+      top: 4px;
+      left: 110px;
+    }
+  
+    .slogant_header h1{
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      left:0Px;
+      text-align: center;
+      position: initial;
+    } 
+
+    /* page article */
+
+    .banniere_categorie{
+      display: none;
+    }
+
+    .page_article{
+      margin:0px ;
+
+    }
+    .titre{
+      font-size: 23px;
+      text-align: center;
+      align-items: center;
+      position: relative;
+      top: 239px;
+      margin:41px;
+      right: 20%; 
+    }
+
+    .photo_full .grande_photo{
+      width: 63%;
+      margin-top: 75px;
+    }
+
+
+  .ligne_photo{
+  display: none;
+}
+
+.photo_de_face{
+  width: 35%
+
+}
+.photo_talon{
+  width: 31%;
+}
+.semelle{
+  width: 29%;
+}
+
+
+/* etoile */
+
+.rating{
+  margin-right: 291px;
+}
+
+
+
+
+/* tableau taile */
+
+.grid-item {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.grid-container{
+  left: 262px;
+  width: 29%;
+  top: 203px;
+}
+/* boutton ajouter */
+button{
+  font-size: 11px;
+    border: 1Px solid green;
+    border-radius: 20px;
+    margin-top: 80px;
+    position: absolute;
+    top:366px;
+    padding: 15px;
+}
+
+
+.photo_full .icone_coeur{
+  width: 27px;
+  margin-top:60px;
+  position: absolute;
+}
+.prix_plus_panier p{
+  font-size:22px;
+  position: relative;
+    top: 195px;
+    left: 24px;
+}
+
+.taille{
+  right: 120px;
+  top: 204px;
+  font-size: 15px;
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+
+.descrition{
+  bottom: 238px;
+  width: 403px;
+  margin-left: 15Px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.verification{
+  font-size: 13px;
+  bottom: 598px;
+  width: 50%;
+  padding-right: 40px;
+  text-align: left;
+  left: 190px;
+  padding-right: 0px;
+}
+
+.logo_verification{
+  bottom: 638px;
+left: 132px;
+}
+
+
+.newsletter{
+  bottom:279px;
+    left: 35px;
+    height: 176px;
+    width: 355px;
+}
+
+#boutton_suprimé{
+  margin-top: 111px;
+}
+
+.banniere_categorie.acceuil{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+
+/* panier */
+
+p.texte_panier_ {
+  font-size: 24px;
+}
+
+#logo_panier{
+  margin-left: 6%;
+  padding-top: 0px;
+  width: 24%;
+}
+
+.jordan_panier{
+  margin-top: -16px;
+  width: 36%;
+}
+
+.texte_panier{
+  margin-left: -128px;
+  font-size: 12px;
+}
+
+
+/* boutton fermer */
+.popup_exit{
+  margin-bottom: 12px;
+  left: 354px;
+  font-size: 16px;
+  width: 47px;
+  bottom: 420px;
+}
+.boutton_suprimé{
+  font-size: 12Px;
+}
+#prix_{
+  margin-left: 5px;
+  margin-top: 78px;
+}
+
+.prix__panier{
+  font-size: 18px;
+}
+.ligne_separator{
+  margin-right: 180px;
+}
+.block_total{
+background-color: #a2a2a23e;
+    width: 166px;
+    height: 124px;
+    margin-left: 212px;
+    margin-bottom: 30px;
+    bottom: 186px;
+}
+  .texte_produit{
+    font-size:19px;
+    position: relative;
+    right: 78px;
+    top:57px;
+
+  }
+
+  .total_produit{
+    margin: 0;
+    font-size: 18px;
+    margin-left: 83px;
+    position: relative;
+    bottom: 70px;
+  }
+.texte_livraison{
+  position: relative;
+  bottom: 104px;
+}
+
+
+.texte_total{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: -180px;
+}
+
+.prix_total{
+  font-size: 23px;
+    margin-left: 36px;
+    margin-top: -186px;
+}
+
+button._acheter_{
+  margin-left: 16%;
+  margin-top: -283px;
+  width: 66%;
+  font-size: 5px;
+  height: 0px;
+}
+
+.boutton_acheter a{
+  font-size:13px;
+}
+
+.ligne_total{
+  display: none;
+}
+
+.prix_livraison{
+  position: relative;
+    bottom: 165px;
+    left: 89px;
+}
+
+
+
+
+}
+
+
+
+   
