@@ -122,17 +122,17 @@ body{
   /*logo du site */
   .logo_header{
   position: relative;
-  width: 19%;
-  bottom:44px; 
+  width: 15%;
+  bottom: -1px;
   }
   
   
   /* slogant header */
   h1{
   position: absolute;
-  left: 300Px;
-  top: 180px;
-  font-size: 40px;
+  left: 272px;
+  top: 190px;
+  font-size: 35px;
   font-family: sans-serif;
   color: rgb(248, 252, 0);
   text-shadow: 2px 0 0 rgb(6, 3, 0), 2px 2px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0);
@@ -739,9 +739,9 @@ body{
     #query.input{
       height: 30px;
       width: 200px;
-      margin-top: 0;
+      margin-top: -17px;
       margin-bottom: 10px;
-      margin-left:110px;
+      margin-left:90px;
     }
   
   
@@ -790,7 +790,8 @@ body{
       position: relative;
       top: 239px;
       margin:41px;
-      right: 20%; 
+      right: 4%;
+       margin-top: 60px;
     }
 
     .photo_full .grande_photo{
@@ -819,6 +820,8 @@ body{
 
 .rating{
   margin-right: 291px;
+  width: 35%;
+  margin-top: 19px;
 }
 
 
@@ -836,15 +839,16 @@ body{
   width: 29%;
   top: 203px;
 }
+
 /* boutton ajouter */
 button{
   font-size: 11px;
-    border: 1Px solid green;
-    border-radius: 20px;
-    margin-top: 80px;
-    position: absolute;
-    top:366px;
-    padding: 15px;
+  border: 1Px solid green;
+  border-radius: 20px;
+  margin-top: 215px;
+  position: absolute;
+  top: 366px;
+  padding: 10px;
 }
 
 
@@ -853,15 +857,16 @@ button{
   margin-top:60px;
   position: absolute;
 }
+
 .prix_plus_panier p{
-  font-size:22px;
+  font-size:20px;
   position: relative;
     top: 195px;
-    left: 24px;
+    left: 38px;
 }
 
 .taille{
-  right: 120px;
+  right: 73px;
   top: 204px;
   font-size: 15px;
   margin-bottom: 2px;
@@ -877,7 +882,7 @@ button{
 }
 
 .verification{
-  font-size: 13px;
+  font-size: 11px;
   bottom: 598px;
   width: 50%;
   padding-right: 40px;
@@ -887,16 +892,31 @@ button{
 }
 
 .logo_verification{
-  bottom: 638px;
-left: 132px;
+  bottom: 627px;
+  left: 160px;
+  margin-top: -6px;
+  width: 27px;
 }
 
 
 .newsletter{
-  bottom:279px;
-    left: 35px;
-    height: 176px;
-    width: 355px;
+  bottom: 279px;
+  left: 20px;
+  height: 136px;
+  width: 328px;
+}
+
+.titre_newsletter {
+  font-size: 20px;
+
+}
+
+.texte_newsletter {
+font-size: 11px;
+}
+
+strong {
+font-size: 14px;
 }
 
 #boutton_suprimé{
@@ -929,48 +949,65 @@ p.texte_panier_ {
 }
 
 .texte_panier{
-  margin-left: -128px;
+  margin-left: -119px;
   font-size: 12px;
+  margin-top: 62px;
 }
 
 
 /* boutton fermer */
 .popup_exit{
-  margin-bottom: 12px;
-  left: 354px;
-  font-size: 16px;
-  width: 47px;
-  bottom: 420px;
+  margin-bottom: 10px;
+  left: 316px;
+  font-size: 14px;
+  width: 41px;
+  bottom: 675px;
 }
+
+
 .boutton_suprimé{
   font-size: 12Px;
 }
+
+
 #prix_{
   margin-left: 5px;
   margin-top: 78px;
+  top: 15px;
+  position: relative;
 }
 
 .prix__panier{
   font-size: 18px;
+  margin-left: 63px;
+  top: 17px;
+  position: relative;
 }
+
+
 .ligne_separator{
   margin-right: 180px;
+  margin-top: 0px;
 }
+
+
 .block_total{
 background-color: #a2a2a23e;
     width: 166px;
     height: 124px;
-    margin-left: 212px;
+    margin-left: 162px;
     margin-bottom: 30px;
-    bottom: 186px;
+    bottom: -30px;
 }
+
+
   .texte_produit{
     font-size:19px;
     position: relative;
     right: 78px;
     top:57px;
-
   }
+
 
   .total_produit{
     margin: 0;
@@ -979,6 +1016,8 @@ background-color: #a2a2a23e;
     position: relative;
     bottom: 70px;
   }
+
+
 .texte_livraison{
   position: relative;
   bottom: 104px;
@@ -991,27 +1030,32 @@ background-color: #a2a2a23e;
   margin-top: -180px;
 }
 
+
 .prix_total{
   font-size: 23px;
     margin-left: 36px;
     margin-top: -186px;
 }
 
+
 button._acheter_{
-  margin-left: 16%;
-  margin-top: -283px;
-  width: 66%;
-  font-size: 5px;
-  height: 0px;
+  margin-left: 20%;
+  margin-top: -278px;
+  width: 56%;
+  font-size: 10px;
+  padding: 5px;
 }
+
 
 .boutton_acheter a{
   font-size:13px;
 }
 
+
 .ligne_total{
   display: none;
 }
+
 
 .prix_livraison{
   position: relative;
@@ -1020,7 +1064,10 @@ button._acheter_{
 }
 
 
-
+.popup-content{
+  margin-left: 15px;
+    margin-top: 15px;
+}
 
 }
 

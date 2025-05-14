@@ -123,17 +123,17 @@ header{
 /*logo du site */
 .logo_header{
   position: relative;
-  width: 19%;
-  bottom:44px; 
+  width: 15%;
+  bottom: -1px;
 }
 
 
 /* slogant header */
 h1{
   position: absolute;
-  left: 300Px;
-  top: 180px;
-  font-size: 40px;
+  left: 272Px;
+  top: 190px;
+  font-size: 35px;
   font-family: sans-serif;
   color: rgb(248, 252, 0);
   text-shadow: 2px 0 0 rgb(6, 3, 0), 2px 2px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0);
@@ -385,7 +385,7 @@ top:30px;
 
 
 .imageII_promo{
-  width: 285Px;
+  width: 285px;
 }
 
 
@@ -1394,13 +1394,10 @@ margin-left:50px;
 
 
   #query.input{
-   
-
-    height: 30px;
-    width: 200px;
-    margin-top: -10px;
-    margin-bottom: 12px;
-    margin-left: 112px;
+   height: 30px;
+   width: 200px;
+   margin-top: -12px;
+   margin-left: 90px;
   }
 
 
@@ -1436,7 +1433,7 @@ margin-left:50px;
   /* incontournable */
   .titre_page_incontournable{
     width:200px;
-    left:105px;
+    left:75px;
     font-size:20px;
     padding: 5px;
   }
@@ -1466,7 +1463,7 @@ margin-left:50px;
     margin-right: 0px;
   }
   .titre_page_promo{
-    left:130px;
+    left:110px;
     width: 35%;
     font-size: 20px;
     padding: 5px;
@@ -1494,6 +1491,15 @@ width: 90%;
   left: 9px;
 }
 
+.imageII_promo{
+  right: 10px;
+  position: relative;
+  width: 94%;         
+}
+
+#description_bob{
+  width: 209px;
+}
 
 .imageIII_promo{
 width: 95%;
@@ -1535,14 +1541,14 @@ left: 12px;
 }
 
 .titre_page_nos_articles{
-font-size: 40px;
+font-size: 36px;
 width: 370px;
-left: 31px;
+left: 6px;
 position: relative;
 }
 
 .page_sneakers img{
-  width: 278px;
+ width: 212px;
 }
 
 .prix_page_sneakers strong{
@@ -1574,6 +1580,7 @@ position: relative;
 
 #image_lacet_noir{
   top: 55px;
+  left: 20px;
 }
 
 #prix_lacet_n{
@@ -1605,7 +1612,7 @@ top: 106px;
 
 #description_lacet_n{
   font-size:19px;
-  margin-left: 57px;
+  margin-left: 27px;
   margin-top: -20px;
   top: 42Px;
   width: 133px;
@@ -1614,17 +1621,17 @@ top: 106px;
 .page_accesoires strong{
   position: initial;
   font-size: 30px;
-  margin-left: 90px;
+  margin-left: 66px;
 }
 
 #image_semelle{
-  left:25px;
+  left:2px;
   top: 57px;
 }
 
 #description_semelle{
   font-size: 20px;
-  margin-left: 0px;
+  margin-left: -29px;
   top:52px;
   width: 182px;
 }
@@ -1637,10 +1644,12 @@ top: 106px;
 #lacet_blanc{
 margin-left: 50px;
 font-size: 20px;
+height: 297px;
 }
 
 #imag_lacet_blc{
   top: 46px;
+  right: 20px;
 }
 
 
@@ -1668,6 +1677,10 @@ top: 65px;
 right: 424px;
 top: 80px;
 }   
+
+.sous_titre_accesoires{
+  width:132px;
+}
 
 
 
@@ -1706,44 +1719,52 @@ height: 341px
 .icone_retour_article{
   width:2em;
   height:31px;
+  position: relative;
+  right: 16px;
 }
 
 .texte_retour{
   margin-bottom:25px;
   margin-top: 1px;
   font-size: 12px;
-
+  margin-left: -29px;
 }
 
 
 .icone_service_client{
   height:30px;
-  
+  margin-left: 26px;
 }
 
 .texte_service_client{
   font-size: 12px;
   margin-bottom:5px;
   margin-top: 1px;
+  margin-right: -9px;
+  width: 36px;
 }
 
 .icone_livraison{
   width:2em;
   height:31px;
+  margin-left: 31px;
 }
 .texte_livraison{
   font-size: 12px;
   margin-top: 1px;
+  padding-left: 41px;
 }
 
 .texte_paiement{
   margin-top: 1px;
   font-size: 12px;
+  width: 9px;
 }
 
 .icone_paiment{
   width:2em;
   height:31px;
+  margin-left: 36px;
 }
 
 .texte_follow{
@@ -1873,7 +1894,7 @@ height: 2em;
   width: 123%;
   height: 28%;
   top: 5px;
-  left: 18px;
+  left: 11px;
 }
 
 .texte_nous_trouver{
@@ -1895,7 +1916,7 @@ height: 2em;
   font-size: 10px;
   top: 238px;
   right:70px;
-  width: 170px;
+  width: 126px;
 }
 
 .icone_accés{
@@ -1910,15 +1931,20 @@ height: 2em;
   bottom:0px;
   top: 230px;
   position: relative;
-  width: 170px;
   left: -22px;
 }
 
 .nous_contacter{
-  width: 146px;
+  width: 124px;
 }
 
 .liste_acces li{
-  width: 137px;
+  width: 107px;
 }
+
+
+.column{
+  height: 293px;
+}
+
 }

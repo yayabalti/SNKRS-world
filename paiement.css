@@ -122,17 +122,17 @@ body{
   /*logo du site */
   .logo_header{
   position: relative;
-  width: 19%;
-  bottom:44px; 
+  width: 15%;
+  bottom: -1px;
   }
   
   
   /* slogant header */
   h1{
   position: absolute;
-  left: 300Px;
-  top: 180px;
-  font-size: 40px;
+  left: 272Px;
+  top: 190px;
+  font-size: 35px;
   font-family: sans-serif;
   color: rgb(248, 252, 0);
   text-shadow: 2px 0 0 rgb(6, 3, 0), 2px 2px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0);
@@ -390,4 +390,204 @@ body{
 .titre_condition_livraison{
   margin-top: 85px;
 margin-left: 280px;
+}
+
+
+
+
+
+
+
+
+
+/* respansive */
+
+@media screen and (max-width: 426px) {
+
+  body,html{
+  margin: 0px;
+  padding: 0px;
+  }
+
+
+  /* haut de page */
+  .titre_principale{
+    display: none;
+  }
+
+
+  .icone_haut_de_page{
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+
+  .fa-solid{
+    font-size: 20px;
+  }
+
+
+  .banniere_haut_de_page{
+    height:90px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #query.input{
+   height: 30px;
+   width: 200px;
+   margin-top: -12px;
+   margin-left: 90px;
+  }
+
+
+  /* header */
+  .banniere_promo{
+    height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .phrase_promo{
+    font-size: 10px;
+
+  }
+
+  .logo_header{
+
+    width: 45%;
+    top: 4px;
+    left: 110px;
+  }
+
+  .slogant_header h1{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    left:0Px;
+    text-align: center;
+    position: initial;
+  }
+
+
+
+
+  /* page payment */
+
+  .page_paiement {
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .texte_payer{
+    font-size: 20px;
+    margin-top: -13px;
+    margin-left: 46px;
+}
+
+.logo--security{
+  font-size: 11px;
+  position: relative;
+  right: 95px;
+  top: 10px;
+}
+
+.nom_carte {
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.div_nom {
+    border: 2px solid black;
+    border-radius: 5px black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.n°_carte{
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+
+.div_numero_carte {
+    border: 2px solid black;
+    border-radius: 3px black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.expiration {
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 50px;
+}
+
+.div_date_carte {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.cryiptogramme {
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 50px;
+}
+
+.div_crypto_visuel {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.titre_condition_livraison {
+    margin-top: 85px;
+    margin-left: 71px;
+    font-size: 17px;
+}
+
+.delivery-info input {
+    margin-left: 83px;
+}
+
+.livraison {
+    margin-left: 95px;
+}
+
+
+
+.div_validé_paiement{
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid rgb(0, 0, 154);
+  border-radius: 20px;
+  background-color: blue;
+  margin-left: 69px;
+  margin-right: 0px;
+  margin-top: 14px;
+  width: 186px;
+}
+
+
+.valider_paiement {
+    color: white;
+    margin-right: 5px;
+    margin-left: 12px;
+    font-size: 17px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.logo_paiement {
+    width: 1.5em;
+    height: 1.5em; 
+}
+
 }
